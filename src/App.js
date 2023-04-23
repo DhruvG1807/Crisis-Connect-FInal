@@ -15,6 +15,8 @@ import Helpline3 from "./components/Helpline3";
 import Helpline4 from "./components/Helpline4";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Signup from "./components/Signup";
+import Firstaid from "./components/firstaid";
+
 
 function App() {
   return (
@@ -35,6 +37,7 @@ function App() {
             <Route path="/helpline2" element={<Helpline2 />} />
             <Route path="/helpline3" element={<Helpline3 />} />
             <Route path="/helpline4" element={<Helpline4 />} />
+            <Route path="/firstaid" element={<Firstaid />} />
             <Route path="/" element={<Home />} />
           </Routes>
         </div>
